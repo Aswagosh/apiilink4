@@ -12,6 +12,10 @@ app.get("/",(req,res)=>{
     res.send("  Loading....")
 })
 
+app.get("/oldpage",(req,res)=>{
+    res.send("wait ...")
+})
+
 app.listen(8084,()=>{
     console.log("Service is running")
 })
